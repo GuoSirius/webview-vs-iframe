@@ -22,7 +22,7 @@ function createWindow() {
     width: 1000,
     height: 680,
     title: "Electron",
-    show: false,
+    // show: false,
     useContentSize: true,
     center: true,
     frame: true,
@@ -38,7 +38,7 @@ function createWindow() {
       sandbox: false,
       nodeIntegration: true, // 注意安全
       nodeIntegrationInWorker: true, // XSS 攻击
-      nodeIntegrationInSubFrames: true, // 是否允许在 子页面(iframe) 或者 子窗口(child window) 中集成 Node.js
+      // nodeIntegrationInSubFrames: true, // 是否允许在 子页面(iframe) 或者 子窗口(child window) 中集成 Node.js
       enableRemoteModule: true,
       zoomFactor: 1,
       javascript: true,
